@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*reset para REMS ;  62.5% = 10px de 16 px*/
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
+.contenedor{
+    height:1200;
+    display: grid;
+    grid-template-columns: 49.5% 1% 49.5%;
+    grid-column-gap: 0rem;
+    margin:0;
+    height:65.7rem;
+}
+
+.quitar-scroll{
+   overflow-x:hidden;
+}
+
+.fondo-personaje{
+    background-color: black;  
+    color: white;
+    
+}
+
+.fondo-personaje h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.barra-vida{
+    margin:3rem;
+    background-color: white;
+    padding: .4rem;
+}
+
+.vida-actual{
+    background-color: #FFB400;
+    width: 100%;
+}
+
+.style {
+    width: 100%; 
+}
+
+.divisor{
+    background-color: #9E0031;
+}
+
+.barra-personaje1, .barra-personaje2{
+    margin-top: 2rem;
+    display:flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-right: #FFB400;
+}
+
+.barra-personaje2{ 
+     margin: 4rem;
+}
+
+.btn{
+    padding: 1rem;
+    border-radius: 0.4rem;
+    margin: 2rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn-atacar{
+    background-color: #F6511D;
+}
+
+.btn-curar{
+    background-color: #6BD425;
+}
+
+.btn-princ{
+   background-color:  #1DD3B0;
+}
+
